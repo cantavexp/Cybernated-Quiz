@@ -32,7 +32,7 @@ README
 
 ## Creater Info
 
-https://github.com/cantavexp/m3pg.git
+https://github.com/cantavexp/Cybernated-Quiz.git
 
 
 
