@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title> TEST TIME</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+<body>
+  <div class="score"><a href="highscores">highscores</a></div>
+  <div class="timer">time:<span id="time">0</span></div>
+
+  <div class="wrapper">
+    <div id="start-screen" class="start-screen">
+      <h1>Test Time</h1>
+      <p>Test your knowledge of the world with this quiz. You will have 60 seconds to answer 5 questions. If you answer incorrectly, 10 seconds will be deducted from your time. Your score will be the time remaining.</p>
+      <button id="start-button">start quiz</button>
+      </div>
+    <div id="question" class="hide"></div>
+    <h2 id="question-title">question</h2>
+    <div id="choices" class="choices"></div>
+    <div id="feedback" class="feedback hide"></div>
+
+    <div id="end-screen" class="end-screen hide">
+      <h2>Quiz Complete!</h2>
+      <p>Your final score is <span id="final-score"></span>.</p>
+      <p>Enter your initials: <input type="text" id="initials" /></p>
+      <button id="submit-score">Submit</button> 
+    </div>
+  </div>
+
+
+ <!-- <script src="scores.js"></script> -->
+  <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/scores.js"></script>
+</body>
+</html>
